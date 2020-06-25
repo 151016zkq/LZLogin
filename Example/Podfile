@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LZLogin_Example' do
+  pod 'LZLogin', :path => '../'
+
+  target 'LZLogin_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
