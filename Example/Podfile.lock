@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LZLogin (0.1.0)
+  - LZLogin (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LZLogin: 5bc8f74c57fd7725957ca7ab792366125142b198
+  LZLogin: 49a82c2c9b933e633e8422d4877520420a867a89
 
-PODFILE CHECKSUM: 23aa6646dc5b20e37e85f0d67b5c0fe8a6cd0faf
+PODFILE CHECKSUM: eaa1c8dd01f4b263bc437c720a4a69cab569a9b8
 
 COCOAPODS: 1.9.3

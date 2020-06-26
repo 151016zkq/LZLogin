@@ -12,13 +12,14 @@
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		213FC629A46A4FE1EEDB2A245CB81FC2 /* LZLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE3CB05A99FB21CA7E1837AF5BF2BF /* LZLogin-dummy.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C07D17C36634DFB11D39F79EA5539C4 /* LZLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62049EE124663B5F51E4ED61380F562B /* LZLogin-dummy.m */; };
+		40939B818B804C7A1D7555570B0D7B31 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D86A1319628322C87AB6A7CD7985A9 /* Login.swift */; };
 		66EBA9587FBC5649F81694B0EAEA8C6B /* Pods-LZLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FED6395D6BFC99A6F8A8F5555F17C2A7 /* Pods-LZLogin_Example-dummy.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		729D59EEE73F858422F92C93C59D365C /* LZLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE059483DA253962EE89695EE331DF7 /* LZLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		729D59EEE73F858422F92C93C59D365C /* LZLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A078ED9DDE0A29EEFB3F5577B61C98BA /* LZLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8A72BAA15A2A03C2FF7A236E7873A9E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
@@ -34,7 +35,6 @@
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D4C8A67D09DEB3A734967FFB10737BE4 /* Pods-LZLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A631AEB18C0CC2340D3DF6D5D0DA368 /* Pods-LZLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E148D2D9C1EAFE5507C784EA37590B7D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56276864E457D00EA37DEEC8BE9321B /* Login.swift */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,11 +65,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		061DC46CBA74DA31AE0C58AAC2CC3D62 /* LZLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZLogin.debug.xcconfig; sourceTree = "<group>"; };
 		099A04BE0A8DFEC54DE53E285BDC97CC /* Pods-LZLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		0F94570FECE7041A604AC696BAA4718C /* LZLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LZLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1C793F69C5F13AEEA859E6FFEFD1223B /* Pods-LZLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1DAD02154877CC0072CD5E8382876E75 /* LZLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LZLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAD02154877CC0072CD5E8382876E75 /* LZLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LZLogin.framework; path = LZLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2332FD01CEDB3B4566FC40F0DCC44AE8 /* Pods-LZLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZLogin_Example-Info.plist"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -77,17 +79,14 @@
 		3A631AEB18C0CC2340D3DF6D5D0DA368 /* Pods-LZLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZLogin_Example-umbrella.h"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		3F6441CC25B5B1B64291448AB4DB3CC4 /* Pods-LZLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
-		401037D56D39BC6136BFD58228FE0850 /* LZLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZLogin.debug.xcconfig; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4D14596138DC78D0201F885357502F7D /* LZLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZLogin.release.xcconfig; sourceTree = "<group>"; };
 		4FE486AF9712561BB1E10B5705023B00 /* Pods-LZLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
-		50337CA98CC71CDB32CBF854ADC6B6FA /* LZLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZLogin-prefix.pch"; sourceTree = "<group>"; };
-		542E9295ABB5A6B4105EA75804DD2041 /* Pods_LZLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		581A5F036EF986AB6DE2C8548C54F3D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		542E9295ABB5A6B4105EA75804DD2041 /* Pods_LZLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZLogin_Tests.framework; path = "Pods-LZLogin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F443FA21D57D24E09E2A23B9EF8B2DD /* Pods-LZLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZLogin_Tests-Info.plist"; sourceTree = "<group>"; };
-		62049EE124663B5F51E4ED61380F562B /* LZLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LZLogin-dummy.m"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		669BA5A97197994FE6065FF1F7ADD314 /* Pods-LZLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZLogin_Tests.modulemap"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -98,33 +97,34 @@
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		9193C8E7CE0CCD35007554E12D577537 /* LZLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZLogin-prefix.pch"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		98D851EAB1102F762711C05EFF475192 /* Pods-LZLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		99D86A1319628322C87AB6A7CD7985A9 /* Login.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Login.swift; path = LZLogin/Classes/Login.swift; sourceTree = "<group>"; };
 		9BB3CDC3959E8C04AB0990605413A4BC /* Pods-LZLogin_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZLogin_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F784930F670EC71BE3795E2CBD96624 /* LZLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LZLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BDE3CB05A99FB21CA7E1837AF5BF2BF /* LZLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LZLogin-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F966B29251AA479EF5B58801E54FA4E /* Pods-LZLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9FDDCD2E80594CB497BEDE886E3C2C3B /* Pods-LZLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A078ED9DDE0A29EEFB3F5577B61C98BA /* LZLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZLogin-umbrella.h"; sourceTree = "<group>"; };
+		A4D0676618104F2605DFEA3795C1F03F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A5E82C93E9DBD66D70060E8E576E07C8 /* LZLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LZLogin.modulemap; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		AF396EB2274A4331FBE3A235D918526A /* LZLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LZLogin.modulemap; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		C8366B693EAB1DA6242C19271AFC1443 /* Pods_LZLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZLogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8366B693EAB1DA6242C19271AFC1443 /* Pods_LZLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZLogin_Example.framework; path = "Pods-LZLogin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D5A85D852C974647878779025B264772 /* Pods-LZLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZLogin_Tests-dummy.m"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		DAE9CBC921E40BF422A28E6DFB592EF4 /* Pods-LZLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DAEBE966C9D5C6853046446390B968BA /* Pods-LZLogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZLogin_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DFE059483DA253962EE89695EE331DF7 /* LZLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZLogin-umbrella.h"; sourceTree = "<group>"; };
 		E7B6489CED9C0602CCE4A5391AB38A3F /* Pods-LZLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZLogin_Example.modulemap"; sourceTree = "<group>"; };
-		F56276864E457D00EA37DEEC8BE9321B /* Login.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Login.swift; path = LZLogin/Classes/Login.swift; sourceTree = "<group>"; };
-		F669CD8F4A949F862BD0B914ECFEB021 /* LZLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LZLogin-Info.plist"; sourceTree = "<group>"; };
-		F7E17929345F8C9B4C22D1B1A3C9D55F /* LZLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZLogin.release.xcconfig; sourceTree = "<group>"; };
-		FAEF2DDFAD73ECD7C1BDAE2B45BDF7E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E7C8A467EEF0B5642D1E61E559736652 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FED6395D6BFC99A6F8A8F5555F17C2A7 /* Pods-LZLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZLogin_Example-dummy.m"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FFFB4EDE6AFF66FC3F11AB34F0A8FA65 /* LZLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LZLogin-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,14 +166,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F82B370696E3DB0DE9BCE980B0C87B8 /* Pod */ = {
+		1AACC3B1649F0006FA54991B5171E109 /* LZLogin */ = {
 			isa = PBXGroup;
 			children = (
-				FAEF2DDFAD73ECD7C1BDAE2B45BDF7E8 /* LICENSE */,
-				9F784930F670EC71BE3795E2CBD96624 /* LZLogin.podspec */,
-				581A5F036EF986AB6DE2C8548C54F3D8 /* README.md */,
+				99D86A1319628322C87AB6A7CD7985A9 /* Login.swift */,
+				72B642002E4744F40CECAD565BE20B97 /* Pod */,
+				3CE13CF9BE0CE7DC6E40AB8C98B6A4C1 /* Support Files */,
 			);
-			name = Pod;
+			name = LZLogin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3CE13CF9BE0CE7DC6E40AB8C98B6A4C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5E82C93E9DBD66D70060E8E576E07C8 /* LZLogin.modulemap */,
+				9BDE3CB05A99FB21CA7E1837AF5BF2BF /* LZLogin-dummy.m */,
+				FFFB4EDE6AFF66FC3F11AB34F0A8FA65 /* LZLogin-Info.plist */,
+				9193C8E7CE0CCD35007554E12D577537 /* LZLogin-prefix.pch */,
+				A078ED9DDE0A29EEFB3F5577B61C98BA /* LZLogin-umbrella.h */,
+				061DC46CBA74DA31AE0C58AAC2CC3D62 /* LZLogin.debug.xcconfig */,
+				4D14596138DC78D0201F885357502F7D /* LZLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LZLogin";
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -200,20 +216,19 @@
 		6F71D2C52C4FD1F5B598D7AC99600EC3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7A7A08608F8BD3880EEBF0D698823AA3 /* LZLogin */,
+				1AACC3B1649F0006FA54991B5171E109 /* LZLogin */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7A7A08608F8BD3880EEBF0D698823AA3 /* LZLogin */ = {
+		72B642002E4744F40CECAD565BE20B97 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F56276864E457D00EA37DEEC8BE9321B /* Login.swift */,
-				1F82B370696E3DB0DE9BCE980B0C87B8 /* Pod */,
-				A4313D9DB1A2256EC4DED51DA6041E8D /* Support Files */,
+				A4D0676618104F2605DFEA3795C1F03F /* LICENSE */,
+				0F94570FECE7041A604AC696BAA4718C /* LZLogin.podspec */,
+				E7C8A467EEF0B5642D1E61E559736652 /* README.md */,
 			);
-			name = LZLogin;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
@@ -250,21 +265,6 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		A4313D9DB1A2256EC4DED51DA6041E8D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AF396EB2274A4331FBE3A235D918526A /* LZLogin.modulemap */,
-				62049EE124663B5F51E4ED61380F562B /* LZLogin-dummy.m */,
-				F669CD8F4A949F862BD0B914ECFEB021 /* LZLogin-Info.plist */,
-				50337CA98CC71CDB32CBF854ADC6B6FA /* LZLogin-prefix.pch */,
-				DFE059483DA253962EE89695EE331DF7 /* LZLogin-umbrella.h */,
-				401037D56D39BC6136BFD58228FE0850 /* LZLogin.debug.xcconfig */,
-				F7E17929345F8C9B4C22D1B1A3C9D55F /* LZLogin.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LZLogin";
 			sourceTree = "<group>";
 		};
 		AF9A856932D144601573484DB4303B5C /* Pods-LZLogin_Tests */ = {
@@ -314,6 +314,7 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -464,7 +465,7 @@
 			buildConfigurationList = 24BEAA333FFA8609EDE1855FC89DB639 /* Build configuration list for PBXNativeTarget "LZLogin" */;
 			buildPhases = (
 				3C606BDFAA4699009C8D9846CC27A1AC /* Headers */,
-				024BA4DCD4013BF197D87DBE84A7ED02 /* Sources */,
+				9E66F8BC1A87B5A21CD23D3EC0A18BDC /* Sources */,
 				1D429D434E2AF9E2728C5151BA5E19E4 /* Frameworks */,
 				9F94F2457CF7529B9F27A454399E6947 /* Resources */,
 			);
@@ -539,12 +540,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		024BA4DCD4013BF197D87DBE84A7ED02 /* Sources */ = {
+		9E66F8BC1A87B5A21CD23D3EC0A18BDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C07D17C36634DFB11D39F79EA5539C4 /* LZLogin-dummy.m in Sources */,
-				E148D2D9C1EAFE5507C784EA37590B7D /* Login.swift in Sources */,
+				40939B818B804C7A1D7555570B0D7B31 /* Login.swift in Sources */,
+				213FC629A46A4FE1EEDB2A245CB81FC2 /* LZLogin-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,7 +705,7 @@
 		};
 		6C12C0E72CAF600CA9D5D69F1D0AC3E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7E17929345F8C9B4C22D1B1A3C9D55F /* LZLogin.release.xcconfig */;
+			baseConfigurationReference = 4D14596138DC78D0201F885357502F7D /* LZLogin.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -736,7 +737,7 @@
 		};
 		99AEEE919C5343954D422287727230D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 401037D56D39BC6136BFD58228FE0850 /* LZLogin.debug.xcconfig */;
+			baseConfigurationReference = 061DC46CBA74DA31AE0C58AAC2CC3D62 /* LZLogin.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -852,7 +853,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

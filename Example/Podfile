@@ -8,6 +8,6 @@ target 'LZLogin_Example' do
 
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
     #添加依赖
-    pod 'Alamofire', :path => '../../Alamofire'
+#    pod 'Alamofire', :path => '../../Alamofire'
   end
 end
