@@ -1,0 +1,22 @@
+{
+  "name": "LZLogin",
+  "version": "0.1.0",
+  "summary": "A short description of LZLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/151016zkq/LZLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "151016zkq": "zhangkaiqiang@16lao.com"
+  },
+  "source": {
+    "git": "https://github.com/151016zkq/LZLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LZLogin/Classes/**/*"
+}

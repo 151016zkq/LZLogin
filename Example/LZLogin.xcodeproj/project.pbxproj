@@ -40,12 +40,12 @@
 		607FACE51AFB9204008FA782 /* LZLogin_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZLogin_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		666233F6A46F43D7084A62FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8A7D5F7FFA98957E51B5BDD7 /* LZLogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LZLogin.podspec; path = ../LZLogin.podspec; sourceTree = "<group>"; };
+		666233F6A46F43D7084A62FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8A7D5F7FFA98957E51B5BDD7 /* LZLogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LZLogin.podspec; path = ../LZLogin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AD4D75C6FA1C451672E6FAC /* Pods_LZLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DE77A47C28E271C6B4CFD7 /* Pods_LZLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZLogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC22A0480D3E6D62B68586ED /* Pods-LZLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZLogin_Example.release.xcconfig"; path = "Target Support Files/Pods-LZLogin_Example/Pods-LZLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B2CDA112EE46661B6349AD7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B2CDA112EE46661B6349AD7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E6B7CEEB8F2704F38FA10A42 /* Pods-LZLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZLogin_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LZLogin_Tests/Pods-LZLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				E6B7CEEB8F2704F38FA10A42 /* Pods-LZLogin_Tests.debug.xcconfig */,
 				491105805208DA5DF2D07C50 /* Pods-LZLogin_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
